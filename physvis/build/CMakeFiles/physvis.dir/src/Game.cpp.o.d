@@ -1,8 +1,7 @@
 CMakeFiles/physvis.dir/src/Game.cpp.o: \
  /home/meet/Programming/physics-dev/physvis/src/Game.cpp \
  /usr/include/stdc-predef.h \
- /home/meet/Programming/physics-dev/physvis/src/./Game.hpp \
- /home/meet/Programming/physics-dev/physvis/src/././PhysCalc.hpp \
+ /home/meet/Programming/physics-dev/physvis/src/Game.hpp \
  /home/meet/Programming/physics-dev/physvis/include/box2d/box2d.h \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_settings.h \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_types.h \
@@ -295,4 +294,11 @@ CMakeFiles/physvis.dir/src/Game.cpp.o: \
  /usr/include/SFML/Graphics/Sprite.hpp \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML_export.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui/imconfig.h \
+ /usr/include/c++/14.2.1/cstdint \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML_export.h \
+ /home/meet/Programming/physics-dev/physvis/src/./PhysCalc.hpp \
  /usr/include/c++/14.2.1/cassert

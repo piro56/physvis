@@ -229,7 +229,6 @@ CMakeFiles/physvis.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/meet/Programming/physics-dev/physvis/src/./Game.hpp \
- /home/meet/Programming/physics-dev/physvis/src/././PhysCalc.hpp \
  /home/meet/Programming/physics-dev/physvis/include/box2d/box2d.h \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_settings.h \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_types.h \
@@ -295,4 +294,11 @@ CMakeFiles/physvis.dir/src/main.cpp.o: \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_pulley_joint.h \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_revolute_joint.h \
  /home/meet/Programming/physics-dev/physvis/include/box2d/b2_weld_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_wheel_joint.h
+ /home/meet/Programming/physics-dev/physvis/include/box2d/b2_wheel_joint.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML_export.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.h \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui/imconfig.h \
+ /usr/include/c++/14.2.1/cstdint \
+ /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML_export.h \
+ /home/meet/Programming/physics-dev/physvis/src/././PhysCalc.hpp

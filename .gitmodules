@@ -1,3 +1,12 @@
 [submodule "physvis/deps/imgui"]
 	path = physvis/deps/imgui
 	url = https://github.com/ocornut/imgui.git
+[submodule "physvis/deps/imgui-sfml"]
+	path = physvis/deps/imgui-sfml
+	url = https://github.com/SFML/imgui-sfml.git
+[submodule "physvis/deps/SFML"]
+	path = physvis/deps/SFML
+	url = https://github.com/SFML/SFML.git
+[submodule "physvis/deps/glfw"]
+	path = physvis/deps/glfw
+	url = https://github.com/glfw/glfw.git

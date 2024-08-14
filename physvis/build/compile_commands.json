@@ -1,20 +1,56 @@
 [
 {
   "directory": "/home/meet/Programming/physics-dev/physvis/build",
-  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -std=gnu++17 -o CMakeFiles/physvis.dir/src/Game.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/Game.cpp",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/src/Game.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/Game.cpp",
   "file": "/home/meet/Programming/physics-dev/physvis/src/Game.cpp",
   "output": "CMakeFiles/physvis.dir/src/Game.cpp.o"
 },
 {
   "directory": "/home/meet/Programming/physics-dev/physvis/build",
-  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -std=gnu++17 -o CMakeFiles/physvis.dir/src/PhysCalc.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/src/PhysCalc.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp",
   "file": "/home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp",
   "output": "CMakeFiles/physvis.dir/src/PhysCalc.cpp.o"
 },
 {
   "directory": "/home/meet/Programming/physics-dev/physvis/build",
-  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -std=gnu++17 -o CMakeFiles/physvis.dir/src/main.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/src/main.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/main.cpp",
   "file": "/home/meet/Programming/physics-dev/physvis/src/main.cpp",
   "output": "CMakeFiles/physvis.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis/build",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.cpp",
+  "output": "CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis/build",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_demo.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis/build",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_draw.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis/build",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_tables.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis/build",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_widgets.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis/build",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml -std=gnu++17 -o CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.cpp",
+  "output": "CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o"
 }
 ]

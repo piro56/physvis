@@ -129,6 +129,150 @@ physvis/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/build
 .PHONY : physvis/fast
 
+deps/imgui-sfml/imgui-SFML.o: deps/imgui-sfml/imgui-SFML.cpp.o
+.PHONY : deps/imgui-sfml/imgui-SFML.o
+
+# target to build an object file
+deps/imgui-sfml/imgui-SFML.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o
+.PHONY : deps/imgui-sfml/imgui-SFML.cpp.o
+
+deps/imgui-sfml/imgui-SFML.i: deps/imgui-sfml/imgui-SFML.cpp.i
+.PHONY : deps/imgui-sfml/imgui-SFML.i
+
+# target to preprocess a source file
+deps/imgui-sfml/imgui-SFML.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.i
+.PHONY : deps/imgui-sfml/imgui-SFML.cpp.i
+
+deps/imgui-sfml/imgui-SFML.s: deps/imgui-sfml/imgui-SFML.cpp.s
+.PHONY : deps/imgui-sfml/imgui-SFML.s
+
+# target to generate assembly for a file
+deps/imgui-sfml/imgui-SFML.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.s
+.PHONY : deps/imgui-sfml/imgui-SFML.cpp.s
+
+deps/imgui/imgui.o: deps/imgui/imgui.cpp.o
+.PHONY : deps/imgui/imgui.o
+
+# target to build an object file
+deps/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o
+.PHONY : deps/imgui/imgui.cpp.o
+
+deps/imgui/imgui.i: deps/imgui/imgui.cpp.i
+.PHONY : deps/imgui/imgui.i
+
+# target to preprocess a source file
+deps/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.i
+.PHONY : deps/imgui/imgui.cpp.i
+
+deps/imgui/imgui.s: deps/imgui/imgui.cpp.s
+.PHONY : deps/imgui/imgui.s
+
+# target to generate assembly for a file
+deps/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.s
+.PHONY : deps/imgui/imgui.cpp.s
+
+deps/imgui/imgui_demo.o: deps/imgui/imgui_demo.cpp.o
+.PHONY : deps/imgui/imgui_demo.o
+
+# target to build an object file
+deps/imgui/imgui_demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o
+.PHONY : deps/imgui/imgui_demo.cpp.o
+
+deps/imgui/imgui_demo.i: deps/imgui/imgui_demo.cpp.i
+.PHONY : deps/imgui/imgui_demo.i
+
+# target to preprocess a source file
+deps/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.i
+.PHONY : deps/imgui/imgui_demo.cpp.i
+
+deps/imgui/imgui_demo.s: deps/imgui/imgui_demo.cpp.s
+.PHONY : deps/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+deps/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.s
+.PHONY : deps/imgui/imgui_demo.cpp.s
+
+deps/imgui/imgui_draw.o: deps/imgui/imgui_draw.cpp.o
+.PHONY : deps/imgui/imgui_draw.o
+
+# target to build an object file
+deps/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o
+.PHONY : deps/imgui/imgui_draw.cpp.o
+
+deps/imgui/imgui_draw.i: deps/imgui/imgui_draw.cpp.i
+.PHONY : deps/imgui/imgui_draw.i
+
+# target to preprocess a source file
+deps/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.i
+.PHONY : deps/imgui/imgui_draw.cpp.i
+
+deps/imgui/imgui_draw.s: deps/imgui/imgui_draw.cpp.s
+.PHONY : deps/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+deps/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.s
+.PHONY : deps/imgui/imgui_draw.cpp.s
+
+deps/imgui/imgui_tables.o: deps/imgui/imgui_tables.cpp.o
+.PHONY : deps/imgui/imgui_tables.o
+
+# target to build an object file
+deps/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o
+.PHONY : deps/imgui/imgui_tables.cpp.o
+
+deps/imgui/imgui_tables.i: deps/imgui/imgui_tables.cpp.i
+.PHONY : deps/imgui/imgui_tables.i
+
+# target to preprocess a source file
+deps/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.i
+.PHONY : deps/imgui/imgui_tables.cpp.i
+
+deps/imgui/imgui_tables.s: deps/imgui/imgui_tables.cpp.s
+.PHONY : deps/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+deps/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.s
+.PHONY : deps/imgui/imgui_tables.cpp.s
+
+deps/imgui/imgui_widgets.o: deps/imgui/imgui_widgets.cpp.o
+.PHONY : deps/imgui/imgui_widgets.o
+
+# target to build an object file
+deps/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o
+.PHONY : deps/imgui/imgui_widgets.cpp.o
+
+deps/imgui/imgui_widgets.i: deps/imgui/imgui_widgets.cpp.i
+.PHONY : deps/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+deps/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.i
+.PHONY : deps/imgui/imgui_widgets.cpp.i
+
+deps/imgui/imgui_widgets.s: deps/imgui/imgui_widgets.cpp.s
+.PHONY : deps/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+deps/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/physvis.dir/build.make CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.s
+.PHONY : deps/imgui/imgui_widgets.cpp.s
+
 src/Game.o: src/Game.cpp.o
 .PHONY : src/Game.o
 
@@ -210,6 +354,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... physvis"
+	@echo "... deps/imgui-sfml/imgui-SFML.o"
+	@echo "... deps/imgui-sfml/imgui-SFML.i"
+	@echo "... deps/imgui-sfml/imgui-SFML.s"
+	@echo "... deps/imgui/imgui.o"
+	@echo "... deps/imgui/imgui.i"
+	@echo "... deps/imgui/imgui.s"
+	@echo "... deps/imgui/imgui_demo.o"
+	@echo "... deps/imgui/imgui_demo.i"
+	@echo "... deps/imgui/imgui_demo.s"
+	@echo "... deps/imgui/imgui_draw.o"
+	@echo "... deps/imgui/imgui_draw.i"
+	@echo "... deps/imgui/imgui_draw.s"
+	@echo "... deps/imgui/imgui_tables.o"
+	@echo "... deps/imgui/imgui_tables.i"
+	@echo "... deps/imgui/imgui_tables.s"
+	@echo "... deps/imgui/imgui_widgets.o"
+	@echo "... deps/imgui/imgui_widgets.i"
+	@echo "... deps/imgui/imgui_widgets.s"
 	@echo "... src/Game.o"
 	@echo "... src/Game.i"
 	@echo "... src/Game.s"

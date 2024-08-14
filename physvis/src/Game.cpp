@@ -1,5 +1,6 @@
 // Copyright 2024
-#include "./Game.hpp"
+#include "Game.hpp"
+#include "imgui-SFML.h"
 
 #include <cassert>
 
@@ -24,6 +25,10 @@ void Game::init() {
   this->physics = new PhysCalc();
   this->physics->init();
   this->initShapes();
+
+  // IMGUI Init
+  window.setFramerateLimit(60);
+  ImGui::SFML::Init(this->window);
 }
 // END INIT
 
@@ -49,17 +54,22 @@ void Game::drawSimpleShapes() {
 // END DRAW
 
 void Game::run() {
+  sf::Clock deltaClock;
   while (this->window.isOpen()) {
     sf::Event event;
 
     while (window.pollEvent(event)) {
+      ImGui::SFML::ProcessEvent(window, event);
       if (event.type == sf::Event::Closed) {
         window.close();
       }
     }
+    ImGui::SFML::Update(window, deltaClock.restart());
+    ImGui::ShowDemoWindow();
 
     window.clear();
     drawSimpleShapes();
+    ImGui::SFML::Render(window);
     window.display();
   }
 }
