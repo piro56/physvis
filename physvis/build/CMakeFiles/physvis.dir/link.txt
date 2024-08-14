@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/physvis.dir/src/Game.cpp.o CMakeFiles/physvis.dir/src/PhysCalc.cpp.o CMakeFiles/physvis.dir/src/main.cpp.o -o bin/physvis  -lsfml-graphics -lsfml-system -lsfml-window -lglfw3 /home/meet/Programming/physics-dev/physvis/lib/libbox2d.a

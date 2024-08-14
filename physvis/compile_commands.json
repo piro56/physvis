@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -std=gnu++17 -o CMakeFiles/physvis.dir/src/Game.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/Game.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/src/Game.cpp",
+  "output": "CMakeFiles/physvis.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -std=gnu++17 -o CMakeFiles/physvis.dir/src/PhysCalc.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp",
+  "output": "CMakeFiles/physvis.dir/src/PhysCalc.cpp.o"
+},
+{
+  "directory": "/home/meet/Programming/physics-dev/physvis",
+  "command": "/usr/bin/c++  -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -std=gnu++17 -o CMakeFiles/physvis.dir/src/main.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/main.cpp",
+  "file": "/home/meet/Programming/physics-dev/physvis/src/main.cpp",
+  "output": "CMakeFiles/physvis.dir/src/main.cpp.o"
+}
+]
