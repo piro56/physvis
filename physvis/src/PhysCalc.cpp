@@ -3,7 +3,13 @@
 
 const b2Vec2 PhysCalc::GRAVITY = b2Vec2{0.0f, -10.0f};
 
-PhysCalc::PhysCalc() : world(GRAVITY) {}
+PhysCalc::PhysCalc() : world(GRAVITY), bodies() {}
+
+PhysCalc::~PhysCalc() {
+  for (MyShape *ms : bodies) {
+    delete ms;
+  }
+}
 
 void PhysCalc::initGroundBody() {
   b2BodyDef groundBodyDef;

@@ -1,6 +1,8 @@
 // Copyright 2024
 #pragma once
+#include <vector>
 
+#include "MyShape.hpp"
 #include "box2d/box2d.h"
 
 class PhysCalc {
@@ -17,10 +19,11 @@ private:
 public:
   b2Body *groundBody;
   b2Body *dynamicBody;
+  std::vector<MyShape *> bodies;
 
   static const constexpr float TIMESTEP = 1.0f / 60.0f;
   PhysCalc();
-
+  ~PhysCalc();
   void init();
   void step();
 };
