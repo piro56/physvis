@@ -1,6 +1,7 @@
 // Copyright 2024
 #pragma once
 
+#include "Renderer.hpp"
 #include "box2d/box2d.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
@@ -13,9 +14,9 @@ class Game {
 private:
   sf::RenderWindow window;
   sf::CircleShape circle;
-
   sf::RectangleShape dynBody;
   sf::RectangleShape groundBody;
+  Renderer *renderer;
 
   PhysCalc *physics;
 

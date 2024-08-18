@@ -13,8 +13,8 @@ private:
 
   b2World world;
 
-  void initGroundBody();
-  void initDynamicBody();
+  void initGroundBody(float width = 50.f, float height = 50.0f);
+  void initDynamicBody(float width = 5.0f, float height = 5.0f);
 
 public:
   b2Body *groundBody;

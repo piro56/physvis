@@ -1,5 +1,6 @@
 // Copyright 2024
 #include "Game.hpp"
+#include "Renderer.hpp"
 #include "imgui-SFML.h"
 
 #include <cassert>
@@ -19,6 +20,8 @@ void Game::initShapes() {
 
   dynBody = sf::RectangleShape(sf::Vector2f(10.f, 10.f));
   groundBody = sf::RectangleShape(sf::Vector2f(10.f, 10.f));
+
+  renderer = new Renderer(&window, physics);
 }
 
 void Game::init() {
@@ -47,8 +50,7 @@ void Game::drawSimpleShapes() {
   dynBody.setPosition(sf::Vector2f(dynPos.x, dynPos.y));
   groundBody.setPosition(sf::Vector2f(staticPos.x, staticPos.y));
 
-  window.draw(dynBody);
-  window.draw(groundBody);
+  renderer->render();
 }
 
 // END DRAW
