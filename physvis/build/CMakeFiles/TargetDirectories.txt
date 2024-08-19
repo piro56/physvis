@@ -1,3 +1,0 @@
-/home/meet/Programming/physics-dev/physvis/build/CMakeFiles/physvis.dir
-/home/meet/Programming/physics-dev/physvis/build/CMakeFiles/edit_cache.dir
-/home/meet/Programming/physics-dev/physvis/build/CMakeFiles/rebuild_cache.dir
