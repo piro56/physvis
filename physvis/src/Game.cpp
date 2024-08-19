@@ -48,7 +48,6 @@ void Game::run() {
     physics->step();
     objManager->updateObjects();
     objManager->renderObjects();
-    sleep(1);
     window->display();
   }
 }
