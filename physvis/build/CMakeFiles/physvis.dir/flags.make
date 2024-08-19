@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/meet/Programming/physics-dev/physvis/include -I/home/meet/Programming/physics-dev/physvis/src -I/home/meet/Programming/physics-dev/physvis/deps/imgui -I/home/meet/Programming/physics-dev/physvis/deps/imgui-sfml
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -Wall -g -std=gnu++17
 

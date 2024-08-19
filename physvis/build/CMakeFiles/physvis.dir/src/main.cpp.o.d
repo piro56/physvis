@@ -229,15 +229,11 @@ CMakeFiles/physvis.dir/src/main.cpp.o: \
  /usr/include/SFML/Graphics/Text.hpp \
  /usr/include/SFML/Graphics/VertexBuffer.hpp \
  /home/meet/Programming/physics-dev/physvis/src/./Game.hpp \
+ /home/meet/Programming/physics-dev/physvis/src/./GameObject.hpp \
  /home/meet/Programming/physics-dev/physvis/include/box2d/box2d.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_settings.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_types.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_api.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_common.h \
- /usr/include/assert.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_draw.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_math.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/base.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/collision.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/math_functions.h \
  /usr/include/c++/14.2.1/math.h /usr/include/c++/14.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
  /usr/include/bits/libm-simd-decl-stubs.h \
@@ -258,47 +254,10 @@ CMakeFiles/physvis.dir/src/main.cpp.o: \
  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_timer.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_chain_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_collision.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_circle_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_edge_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_polygon_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_broad_phase.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_dynamic_tree.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_growable_stack.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_body.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_contact.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_fixture.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_time_step.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_world.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_block_allocator.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_contact_manager.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_stack_allocator.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_world_callbacks.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_distance_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_friction_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_gear_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_motor_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_mouse_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_prismatic_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_pulley_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_revolute_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_weld_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_wheel_joint.h \
- /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.h \
- /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML_export.h \
- /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.h \
- /home/meet/Programming/physics-dev/physvis/deps/imgui/imconfig.h \
- /usr/include/c++/14.2.1/cstdint \
- /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML_export.h \
- /home/meet/Programming/physics-dev/physvis/src/././PhysCalc.hpp
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/id.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/types.h \
+ /home/meet/Programming/physics-dev/physvis/src/./utils.hpp \
+ /home/meet/Programming/physics-dev/physvis/src/./ObjectManager.hpp \
+ /home/meet/Programming/physics-dev/physvis/src/./PhysCalc.hpp \
+ /home/meet/Programming/physics-dev/physvis/src/./Renderer.hpp

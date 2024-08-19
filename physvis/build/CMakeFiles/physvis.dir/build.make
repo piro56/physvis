@@ -83,10 +83,38 @@ CMakeFiles/physvis.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physvis.dir/src/Game.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/Programming/physics-dev/physvis/src/Game.cpp -o CMakeFiles/physvis.dir/src/Game.cpp.s
 
+CMakeFiles/physvis.dir/src/GameObject.cpp.o: CMakeFiles/physvis.dir/flags.make
+CMakeFiles/physvis.dir/src/GameObject.cpp.o: /home/meet/Programming/physics-dev/physvis/src/GameObject.cpp
+CMakeFiles/physvis.dir/src/GameObject.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/physvis.dir/src/GameObject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/src/GameObject.cpp.o -MF CMakeFiles/physvis.dir/src/GameObject.cpp.o.d -o CMakeFiles/physvis.dir/src/GameObject.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/GameObject.cpp
+
+CMakeFiles/physvis.dir/src/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/physvis.dir/src/GameObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meet/Programming/physics-dev/physvis/src/GameObject.cpp > CMakeFiles/physvis.dir/src/GameObject.cpp.i
+
+CMakeFiles/physvis.dir/src/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physvis.dir/src/GameObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/Programming/physics-dev/physvis/src/GameObject.cpp -o CMakeFiles/physvis.dir/src/GameObject.cpp.s
+
+CMakeFiles/physvis.dir/src/ObjectManager.cpp.o: CMakeFiles/physvis.dir/flags.make
+CMakeFiles/physvis.dir/src/ObjectManager.cpp.o: /home/meet/Programming/physics-dev/physvis/src/ObjectManager.cpp
+CMakeFiles/physvis.dir/src/ObjectManager.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/physvis.dir/src/ObjectManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/src/ObjectManager.cpp.o -MF CMakeFiles/physvis.dir/src/ObjectManager.cpp.o.d -o CMakeFiles/physvis.dir/src/ObjectManager.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/ObjectManager.cpp
+
+CMakeFiles/physvis.dir/src/ObjectManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/physvis.dir/src/ObjectManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meet/Programming/physics-dev/physvis/src/ObjectManager.cpp > CMakeFiles/physvis.dir/src/ObjectManager.cpp.i
+
+CMakeFiles/physvis.dir/src/ObjectManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physvis.dir/src/ObjectManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/Programming/physics-dev/physvis/src/ObjectManager.cpp -o CMakeFiles/physvis.dir/src/ObjectManager.cpp.s
+
 CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: /home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp
 CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/physvis.dir/src/PhysCalc.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/physvis.dir/src/PhysCalc.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/src/PhysCalc.cpp.o -MF CMakeFiles/physvis.dir/src/PhysCalc.cpp.o.d -o CMakeFiles/physvis.dir/src/PhysCalc.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp
 
 CMakeFiles/physvis.dir/src/PhysCalc.cpp.i: cmake_force
@@ -97,10 +125,24 @@ CMakeFiles/physvis.dir/src/PhysCalc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physvis.dir/src/PhysCalc.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/Programming/physics-dev/physvis/src/PhysCalc.cpp -o CMakeFiles/physvis.dir/src/PhysCalc.cpp.s
 
+CMakeFiles/physvis.dir/src/Renderer.cpp.o: CMakeFiles/physvis.dir/flags.make
+CMakeFiles/physvis.dir/src/Renderer.cpp.o: /home/meet/Programming/physics-dev/physvis/src/Renderer.cpp
+CMakeFiles/physvis.dir/src/Renderer.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/physvis.dir/src/Renderer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/src/Renderer.cpp.o -MF CMakeFiles/physvis.dir/src/Renderer.cpp.o.d -o CMakeFiles/physvis.dir/src/Renderer.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/Renderer.cpp
+
+CMakeFiles/physvis.dir/src/Renderer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/physvis.dir/src/Renderer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meet/Programming/physics-dev/physvis/src/Renderer.cpp > CMakeFiles/physvis.dir/src/Renderer.cpp.i
+
+CMakeFiles/physvis.dir/src/Renderer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/physvis.dir/src/Renderer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/Programming/physics-dev/physvis/src/Renderer.cpp -o CMakeFiles/physvis.dir/src/Renderer.cpp.s
+
 CMakeFiles/physvis.dir/src/main.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/src/main.cpp.o: /home/meet/Programming/physics-dev/physvis/src/main.cpp
 CMakeFiles/physvis.dir/src/main.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/physvis.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/physvis.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/src/main.cpp.o -MF CMakeFiles/physvis.dir/src/main.cpp.o.d -o CMakeFiles/physvis.dir/src/main.cpp.o -c /home/meet/Programming/physics-dev/physvis/src/main.cpp
 
 CMakeFiles/physvis.dir/src/main.cpp.i: cmake_force
@@ -114,7 +156,7 @@ CMakeFiles/physvis.dir/src/main.cpp.s: cmake_force
 CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o: /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.cpp
 CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o -MF CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o.d -o CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui.cpp
 
 CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.i: cmake_force
@@ -128,7 +170,7 @@ CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.s: cmake_force
 CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o: /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_demo.cpp
 CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o -MF CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o.d -o CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_demo.cpp
 
 CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.i: cmake_force
@@ -142,7 +184,7 @@ CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.s: cmake_force
 CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o: /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_draw.cpp
 CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o -MF CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o.d -o CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_draw.cpp
 
 CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.i: cmake_force
@@ -156,7 +198,7 @@ CMakeFiles/physvis.dir/deps/imgui/imgui_draw.cpp.s: cmake_force
 CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o: /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_tables.cpp
 CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o -MF CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o.d -o CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_tables.cpp
 
 CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.i: cmake_force
@@ -170,7 +212,7 @@ CMakeFiles/physvis.dir/deps/imgui/imgui_tables.cpp.s: cmake_force
 CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o: /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_widgets.cpp
 CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o -MF CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui/imgui_widgets.cpp
 
 CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.i: cmake_force
@@ -184,7 +226,7 @@ CMakeFiles/physvis.dir/deps/imgui/imgui_widgets.cpp.s: cmake_force
 CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o: CMakeFiles/physvis.dir/flags.make
 CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o: /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.cpp
 CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o: CMakeFiles/physvis.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o -MF CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o.d -o CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o -c /home/meet/Programming/physics-dev/physvis/deps/imgui-sfml/imgui-SFML.cpp
 
 CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.i: cmake_force
@@ -198,7 +240,10 @@ CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.s: cmake_force
 # Object files for target physvis
 physvis_OBJECTS = \
 "CMakeFiles/physvis.dir/src/Game.cpp.o" \
+"CMakeFiles/physvis.dir/src/GameObject.cpp.o" \
+"CMakeFiles/physvis.dir/src/ObjectManager.cpp.o" \
 "CMakeFiles/physvis.dir/src/PhysCalc.cpp.o" \
+"CMakeFiles/physvis.dir/src/Renderer.cpp.o" \
 "CMakeFiles/physvis.dir/src/main.cpp.o" \
 "CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o" \
 "CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o" \
@@ -211,7 +256,10 @@ physvis_OBJECTS = \
 physvis_EXTERNAL_OBJECTS =
 
 bin/physvis: CMakeFiles/physvis.dir/src/Game.cpp.o
+bin/physvis: CMakeFiles/physvis.dir/src/GameObject.cpp.o
+bin/physvis: CMakeFiles/physvis.dir/src/ObjectManager.cpp.o
 bin/physvis: CMakeFiles/physvis.dir/src/PhysCalc.cpp.o
+bin/physvis: CMakeFiles/physvis.dir/src/Renderer.cpp.o
 bin/physvis: CMakeFiles/physvis.dir/src/main.cpp.o
 bin/physvis: CMakeFiles/physvis.dir/deps/imgui/imgui.cpp.o
 bin/physvis: CMakeFiles/physvis.dir/deps/imgui/imgui_demo.cpp.o
@@ -222,7 +270,7 @@ bin/physvis: CMakeFiles/physvis.dir/deps/imgui-sfml/imgui-SFML.cpp.o
 bin/physvis: CMakeFiles/physvis.dir/build.make
 bin/physvis: /home/meet/Programming/physics-dev/physvis/lib/libbox2d.a
 bin/physvis: CMakeFiles/physvis.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable bin/physvis"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/meet/Programming/physics-dev/physvis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable bin/physvis"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/physvis.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

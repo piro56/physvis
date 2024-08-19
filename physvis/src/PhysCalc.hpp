@@ -1,29 +1,17 @@
-// Copyright 2024
 #pragma once
-#include <vector>
-
-#include "MyShape.hpp"
-#include "box2d/box2d.h"
+#include <box2d/box2d.h>
 
 class PhysCalc {
-private:
-  static const b2Vec2 GRAVITY;
-  static const uint VELOCITY_ITER = 8;
-  static const uint POS_ITER = 3;
-
-  b2World world;
-
-  void initGroundBody(float width = 50.f, float height = 50.0f);
-  void initDynamicBody(float width = 5.0f, float height = 5.0f);
+  const float GRAVITY = -10.0f;
+  const float TIMESTEP = 1.0f / 60.0f;
+  const float SUBSTEP_COUNT = 4;
+  b2WorldDef worldDef;
 
 public:
-  b2Body *groundBody;
-  b2Body *dynamicBody;
-  std::vector<MyShape *> bodies;
-
-  static const constexpr float TIMESTEP = 1.0f / 60.0f;
   PhysCalc();
   ~PhysCalc();
+
+  b2WorldId worldId;
   void init();
   void step();
 };

@@ -3,10 +3,7 @@ CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: \
  /usr/include/stdc-predef.h \
  /home/meet/Programming/physics-dev/physvis/src/PhysCalc.hpp \
  /home/meet/Programming/physics-dev/physvis/include/box2d/box2d.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_settings.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_types.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_api.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/base.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -17,12 +14,8 @@ CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: \
  /usr/include/bits/time64.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
  /usr/include/bits/stdint-least.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_common.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
- /usr/include/assert.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/float.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_draw.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_math.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/collision.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/math_functions.h \
  /usr/include/c++/14.2.1/math.h /usr/include/c++/14.2.1/cmath \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -38,16 +31,17 @@ CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: \
  /usr/include/bits/mathcalls-helper-functions.h \
  /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
  /usr/include/bits/iscanonical.h /usr/include/c++/14.2.1/bits/std_abs.h \
- /usr/include/stdlib.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/bits/types/locale_t.h \
- /usr/include/bits/types/__locale_t.h /usr/include/sys/types.h \
- /usr/include/bits/types/clock_t.h /usr/include/bits/types/clockid_t.h \
- /usr/include/bits/types/time_t.h /usr/include/bits/types/timer_t.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/endianness.h /usr/include/bits/byteswap.h \
- /usr/include/bits/uintn-identity.h /usr/include/sys/select.h \
- /usr/include/bits/select.h /usr/include/bits/types/sigset_t.h \
- /usr/include/bits/types/__sigset_t.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/timer_t.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/endianness.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
  /usr/include/bits/types/struct_timeval.h \
  /usr/include/bits/types/struct_timespec.h \
  /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
@@ -84,41 +78,6 @@ CMakeFiles/physvis.dir/src/PhysCalc.cpp.o: \
  /usr/include/c++/14.2.1/tr1/poly_hermite.tcc \
  /usr/include/c++/14.2.1/tr1/poly_laguerre.tcc \
  /usr/include/c++/14.2.1/tr1/riemann_zeta.tcc \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_timer.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_chain_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_collision.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
- /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
- /usr/include/limits.h /usr/include/bits/posix1_lim.h \
- /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
- /usr/include/bits/pthread_stack_min-dynamic.h \
- /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_circle_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_edge_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_polygon_shape.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_broad_phase.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_dynamic_tree.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_growable_stack.h \
- /usr/include/string.h /usr/include/strings.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_body.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_contact.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_fixture.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_time_step.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_world.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_block_allocator.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_contact_manager.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_stack_allocator.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_world_callbacks.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_distance_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_friction_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_gear_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_motor_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_mouse_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_prismatic_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_pulley_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_revolute_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_weld_joint.h \
- /home/meet/Programming/physics-dev/physvis/include/box2d/b2_wheel_joint.h
+ /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/id.h \
+ /home/meet/Programming/physics-dev/physvis/include/box2d/types.h

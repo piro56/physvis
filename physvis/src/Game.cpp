@@ -1,77 +1,54 @@
-// Copyright 2024
 #include "Game.hpp"
-#include "Renderer.hpp"
-#include "imgui-SFML.h"
-
-#include <cassert>
-
+#include "ObjectManager.hpp"
+#include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <SFML/Window/VideoMode.hpp>
+#include <cmath>
+#include <unistd.h>
 
-// CONSTRUCTOR DESTRUCTOR
-Game::Game() : window(sf::VideoMode(200, 200), "Window") {}
-
-Game::~Game() { delete this->physics; }
-// END CONSTRUCTOR
-
-// INIT
-void Game::initShapes() {
-  circle = sf::CircleShape(100.f);
-  circle.setFillColor(sf::Color::Red);
-
-  dynBody = sf::RectangleShape(sf::Vector2f(10.f, 10.f));
-  groundBody = sf::RectangleShape(sf::Vector2f(10.f, 10.f));
-
-  renderer = new Renderer(&window, physics);
+Game::Game() { window = nullptr; }
+Game::~Game() {
+  delete window;
+  delete renderer;
+  delete physics;
 }
 
 void Game::init() {
-  this->physics = new PhysCalc();
-  this->physics->init();
-  this->initShapes();
+  window = new sf::RenderWindow(sf::VideoMode(800, 600), "Hello World");
+  renderer = new Renderer(window);
+  physics = new PhysCalc();
+  objManager = new ObjectManager(window);
 
-  // IMGUI Init
-  window.setFramerateLimit(60);
-  ImGui::SFML::Init(this->window);
+  renderer->init();
+  physics->init();
 }
-// END INIT
-
-// DRAW
-
-void Game::drawShapes() { this->drawSimpleShapes(); }
-
-void Game::drawSimpleShapes() {
-  assert(physics != nullptr);
-
-  const b2Vec2 dynPos = physics->dynamicBody->GetPosition();
-  const float dynAngleRad = physics->dynamicBody->GetAngle();
-  const b2Vec2 staticPos = physics->groundBody->GetPosition();
-  const float staticAngleRad = physics->groundBody->GetAngle();
-
-  dynBody.setPosition(sf::Vector2f(dynPos.x, dynPos.y));
-  groundBody.setPosition(sf::Vector2f(staticPos.x, staticPos.y));
-
-  renderer->render();
-}
-
-// END DRAW
 
 void Game::run() {
-  sf::Clock deltaClock;
-  while (this->window.isOpen()) {
-    sf::Event event;
 
-    while (window.pollEvent(event)) {
-      ImGui::SFML::ProcessEvent(window, event);
+  GameObject *groundBody =
+      new GameObject(physics->worldId, 5, 100, 1.0f, 1.0f, false);
+  groundBody->attachShape(new sf::RectangleShape(sf::Vector2f(800, 200)));
+  GameObject *dynamicBody =
+      new GameObject(physics->worldId, 1, 1, 2, 10, true, 0.0f, 0.0f, M_PI / 2);
+  dynamicBody->attachShape(new sf::RectangleShape(sf::Vector2f(100, 100)));
+  dynamicBody->sfShape->setFillColor(sf::Color::Red);
+
+  objManager->addObject(groundBody);
+  objManager->addObject(dynamicBody);
+
+  while (window->isOpen()) {
+    sf::Event event;
+    while (window->pollEvent(event)) {
       if (event.type == sf::Event::Closed) {
-        window.close();
+        window->close();
       }
     }
-    ImGui::SFML::Update(window, deltaClock.restart());
-    ImGui::ShowDemoWindow();
-
-    window.clear();
-    drawSimpleShapes();
-    ImGui::SFML::Render(window);
-    window.display();
+    window->clear(sf::Color::Transparent);
+    physics->step();
+    objManager->updateObjects();
+    objManager->renderObjects();
+    sleep(1);
+    window->display();
   }
 }

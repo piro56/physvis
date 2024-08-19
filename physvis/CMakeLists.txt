@@ -5,7 +5,7 @@ project(PhysVis LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
+SET(CMAKE_CXX_FLAGS "-Wall -g")
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
@@ -26,7 +26,7 @@ add_executable(physvis ${sources} ${imguisrc} ${imguisfml})
 
 target_include_directories(physvis PUBLIC "${CMAKE_SOURCE_DIR}/include" 
   "${CMAKE_SOURCE_DIR}/src" "${CMAKE_SOURCE_DIR}/deps/imgui" "${CMAKE_SOURCE_DIR}/deps/imgui-sfml") 
-target_link_libraries(physvis PRIVATE sfml-graphics sfml-system sfml-window glfw3 glut GLU GL 
+target_link_libraries(physvis PRIVATE sfml-graphics sfml-system sfml-window glfw3 glut GLU GL box2d 
   ${libs})
 target_compile_features(physvis PRIVATE cxx_std_17)
 include_directories("${CMAKE_SOURCE_DIR}/include")
