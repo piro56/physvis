@@ -27,11 +27,11 @@ void Game::init() {
 void Game::run() {
 
   GameObject *groundBody =
-      new GameObject(physics->worldId, 5, 100, 1.0f, 1.0f, false);
-  groundBody->attachShape(new sf::RectangleShape(sf::Vector2f(800, 200)));
-  GameObject *dynamicBody =
-      new GameObject(physics->worldId, 1, 1, 2, 10, true, 0.0f, 0.0f, M_PI / 2);
-  dynamicBody->attachShape(new sf::RectangleShape(sf::Vector2f(100, 100)));
+      new GameObject(physics->worldId, 50, 10, 1.0f, 1.0f, false);
+  groundBody->attachShape(new sf::RectangleShape(sf::Vector2f(50, 10)));
+  GameObject *dynamicBody = new GameObject(physics->worldId, 10, 5, 2, 100,
+                                           true, 0.0f, 0.0f, M_PI / 2);
+  dynamicBody->attachShape(new sf::RectangleShape(sf::Vector2f(10, 5)));
   dynamicBody->sfShape->setFillColor(sf::Color::Red);
 
   objManager->addObject(groundBody);
@@ -45,9 +45,11 @@ void Game::run() {
       }
     }
     window->clear(sf::Color::Transparent);
+    objManager->debugPrint();
     physics->step();
     objManager->updateObjects();
     objManager->renderObjects();
     window->display();
+    sleep(1);
   }
 }

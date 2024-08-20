@@ -1,6 +1,4 @@
 #include "ObjectManager.hpp"
-#include "box2d/box2d.h"
-#include <SFML/Graphics/RenderWindow.hpp>
 
 ObjectManager::ObjectManager(sf::RenderWindow *window) {
   this->window = window;
@@ -38,4 +36,11 @@ void ObjectManager::renderObjects() {
 void ObjectManager::addObject(GameObject *object) {
   this->gameObjects.push_back(object);
   update_obj(object);
+}
+
+void ObjectManager::debugPrint() {
+  for (GameObject *obj : gameObjects) {
+    std::cout << "\t" << obj->bodyId.index1 << "b2[" << obj->xpos << ", "
+              << obj->ypos << ", r" << obj->rot_deg << "]\n";
+  }
 }

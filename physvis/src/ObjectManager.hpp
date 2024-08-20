@@ -1,7 +1,10 @@
 #pragma once
 
-#include <SFML/Graphics/RenderWindow.hpp>
+#include <iostream>
 #include <vector>
+
+#include "box2d/box2d.h"
+#include <SFML/Graphics/RenderWindow.hpp>
 
 #include "GameObject.hpp"
 #include "PhysCalc.hpp"
@@ -18,8 +21,8 @@ private:
   void update_obj(GameObject *obj);
 
 public:
-  const float X_SCALE = 5;
-  const float Y_SCALE = 5;
+  const float X_SCALE = 1;
+  const float Y_SCALE = 1;
 
   ObjectManager(sf::RenderWindow *window);
   ~ObjectManager();
@@ -27,4 +30,6 @@ public:
   void updateObjects();
   void renderObjects();
   void addObject(GameObject *object);
+
+  void debugPrint();
 };

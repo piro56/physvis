@@ -7,7 +7,7 @@ PhysCalc::~PhysCalc() {}
 
 void PhysCalc::init() {
   worldDef = b2DefaultWorldDef();
-  worldDef.gravity = (b2Vec2){0.0f, GRAVITY};
+  worldDef.gravity = (b2Vec2){0.2f, GRAVITY};
   worldId = b2CreateWorld(&worldDef);
 }
 
