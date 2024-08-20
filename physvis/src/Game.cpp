@@ -1,7 +1,10 @@
 #include "Game.hpp"
 #include "ObjectManager.hpp"
+#include "box2d/box2d.h"
 #include <SFML/Graphics/Color.hpp>
 #include <SFML/Graphics/RectangleShape.hpp>
+#include <SFML/System/Sleep.hpp>
+#include <SFML/System/Time.hpp>
 #include <SFML/System/Vector2.hpp>
 #include <SFML/Window/VideoMode.hpp>
 #include <cmath>
@@ -16,26 +19,24 @@ Game::~Game() {
 
 void Game::init() {
   window = new sf::RenderWindow(sf::VideoMode(800, 600), "Hello World");
-  renderer = new Renderer(window);
   physics = new PhysCalc();
+  renderer = new Renderer(window);
   objManager = new ObjectManager(window);
 
-  renderer->init();
   physics->init();
+  renderer->init();
 }
 
 void Game::run() {
 
   GameObject *groundBody =
-      new GameObject(physics->worldId, 50, 10, 1.0f, 1.0f, false);
-  groundBody->attachShape(new sf::RectangleShape(sf::Vector2f(50, 10)));
-  GameObject *dynamicBody = new GameObject(physics->worldId, 10, 5, 2, 100,
-                                           true, 0.0f, 0.0f, M_PI / 2);
-  dynamicBody->attachShape(new sf::RectangleShape(sf::Vector2f(10, 5)));
-  dynamicBody->sfShape->setFillColor(sf::Color::Red);
+      new GameObject(physics->worldId, 1000, 10, 10.0f, 10.0f, false);
+  groundBody->attachShape(new sf::RectangleShape(sf::Vector2f(1000, 10)));
+  GameObject *dynObj =
+      GameObject::SimpleDynamic(physics->worldId, 10, 10, 5, 50);
 
   objManager->addObject(groundBody);
-  objManager->addObject(dynamicBody);
+  objManager->addObject(dynObj);
 
   while (window->isOpen()) {
     sf::Event event;
@@ -43,13 +44,19 @@ void Game::run() {
       if (event.type == sf::Event::Closed) {
         window->close();
       }
+      if (event.type == sf::Event::KeyPressed) {
+        std::cout << "Press.\n";
+        b2Body_ApplyForce(dynObj->bodyId, (b2Vec2){101, 10000.0},
+                          (b2Vec2){dynObj->xpos, dynObj->ypos + 1}, true);
+      }
     }
-    window->clear(sf::Color::Transparent);
+    window->clear(sf::Color::Black);
     objManager->debugPrint();
     physics->step();
+
     objManager->updateObjects();
     objManager->renderObjects();
     window->display();
-    sleep(1);
+    sf::sleep(sf::Time(sf::milliseconds(10)));
   }
 }

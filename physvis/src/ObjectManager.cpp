@@ -16,8 +16,8 @@ void ObjectManager::update_obj(GameObject *obj) {
   obj->ypos = pos.y;
   b2Rot rot = b2Body_GetRotation(obj->bodyId);
   obj->rot_deg = rad_to_deg(b2Rot_GetAngle(rot));
-  obj->sfShape->setPosition(
-      sf::Vector2f(obj->xpos * X_SCALE, obj->ypos * Y_SCALE));
+  float ydiff = window->getSize().y - obj->ypos - obj->height;
+  obj->sfShape->setPosition(sf::Vector2f(obj->xpos * X_SCALE, ydiff * Y_SCALE));
   obj->sfShape->setRotation(obj->rot_deg);
 }
 
